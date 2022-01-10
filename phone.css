@@ -1,0 +1,75 @@
+/* navination */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li{
+    font-size: 0.9rem;
+}
+#navbar ul li a{
+    padding: 3px 12px;
+}
+
+/* home sectinn  */
+#home{
+    height: 350px;
+    padding: 0px;
+    
+}
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 0.8rem;
+}
+/* services section  */
+#services{
+    flex-direction: column;
+}
+
+.btn{
+    font-size: 1.2rem;
+}
+#services .box img{
+    height: 90px;
+}
+
+
+/* country section  */
+
+#countries{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+
+#countries img{
+    height: 60px;
+
+}
+
+/* contact section  */
+#contact-box form{
+    width: 70%;
+}
+#contact-box label{
+    font-size: 0.8rem;
+}
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 0.6rem;
+}
+/* footer  */
+footer{
+    font-size: 0.6rem;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 1.5rem;
+}
+
+.h-secondary{
+    font-size: 1.5rem;
+}
