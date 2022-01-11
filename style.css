@@ -108,7 +108,7 @@ html{
     left: 0px;
     height: 450px;
     width: 100%;
-    z-index: -1;
+    z-index: -100;
     opacity: 0.9;
 }
 
